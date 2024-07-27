@@ -65,8 +65,8 @@ export class Department extends Component {
             <tbody className='text-center' style={{ verticalAlign: 'middle' }}>
               {deps.map(dep => (
                 <tr key={dep.id}>
-                  <td >{dep.id}</td>
-                  <td className='text-center'>{dep.name}</td>
+                  <td>{dep.id}</td>
+                  <td>{dep.name}</td>
                   <td>
                     <ButtonToolbar className='d-flex justify-content-center'>
                       <Button className="m-2" variant="info"
